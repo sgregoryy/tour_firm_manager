@@ -1,0 +1,124 @@
+
+
+.comand-container{
+    width: 40%;
+}
+
+.comand-container * > {
+    margin-right: 10px;
+    margin-left: 15px;
+}
+
+dl {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  dt {
+    font-weight: bold; 
+    margin: 0.5em 0; 
+    margin-left: 10px;
+  }
+  
+  
+  dd {
+    margin: 0 0 0.5em 1em; 
+    padding: 0.5em; 
+    background: #e2dddd; 
+    border-left: 3px solid #007BFF; 
+    border-radius: 5px; 
+  }
+  
+.home-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100%;
+}
+
+.home-container > *{
+    width: 100%;
+}
+
+.home-left-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+}
+
+.home-right-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 230, 230);
+}
+
+.home-right-container > *{
+  margin-left: 10px;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    justify-self: left;
+    width: 50%;
+    height: 100%;
+}
+
+.nav-list > *{
+    margin-left: 15px;
+}
+
+.panel-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.actions-section{
+    overflow-y: auto;
+    border-top: 1px solid rgb(200, 200, 200);
+}
+
+.top-direction-container{
+    width: 99%;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    background-color: rgb(240, 240, 240);
+}
+
+ul {
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Стили для элементов списка */
+  ul li {
+    background: #f4f4f4; /* Светло-серый фон для элементов списка */
+    margin: 0.5em 0; /* Отступы между элементами */
+    padding: 1em; /* Внутренние отступы */
+    border-radius: 5px; /* Скругленные углы */
+    transition: background 0.3s; /* Плавный переход фона при наведении */
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  /* Стили при наведении */
+  ul li:hover {
+    background: #e0e0e0; /* Немного темнее при наведении */
+    cursor: pointer;
+  }
+  
+  /* Стили для ссылок внутри элементов списка */
+  ul li a {
+    text-decoration: none; /* Убирает подчеркивание */
+    color: #333; /* Цвет текста */
+    font-weight: bold; /* Жирный текст */
+  }
+  
+  ul li a:hover {
+    color: #007BFF; /* Цвет текста при наведении */
+  }  

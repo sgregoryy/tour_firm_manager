@@ -1,0 +1,54 @@
+.statspage {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .sidebar p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #d5d5d5;
+  }
+  
+  .sidebar ul li.active {
+    background-color: #b0b0b0;
+  }
+  
+  .main-container {
+    flex-grow: 1;
+    padding: 20px;
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .chart-elem {
+    width: 500px;
+    height: 700px;
+    margin: 10px;
+  }
+  

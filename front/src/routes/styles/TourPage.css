@@ -1,0 +1,59 @@
+.tourspage {
+    padding: 20px;
+  }
+  
+  .tourspage input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .tourspage button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .tourspage button:hover {
+    background-color: #0056b3;
+  }
+  
+  .tourspage ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .tourspage li {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    height: auto;
+  }
+  
+  .tourspage li:hover {
+    transform: scale(1.02);
+  }
+  
+  .tourspage li h2 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+  }
+  
+  .tourspage li p {
+    margin: 5px 0;
+  }
+  
